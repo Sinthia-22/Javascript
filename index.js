@@ -50,3 +50,16 @@ document.write(text2 + "<br> <br>");
 document.write(text1.concat(text2) + "<br> <br>");
 
 
+
+var num1= prompt("Enter First Number: ");  //prompt diye user input neoa hoy jeta seta string e thake
+var num2= prompt("Enter Second Number: ");
+
+num1 = parseInt(num1 , 10);  // 10 cz eta decimal number er base
+num2 = parseInt(num2 , 10);
+
+var sum , sub;
+sum= num1+num2;
+document.write( num1 + "+" + num2 + " = " + sum + "<br><br>")
+
+sub= num1 - num2;
+document.write( num1 + "-" + num2 + " = " + sub + "<br><br>")
